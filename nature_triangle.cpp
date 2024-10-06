@@ -9,7 +9,7 @@ int main(){
     std::cin>>c;
     if ((a*a) == ((b*b)+(c*c))||(b*b) == ((a*a)+(c*c))||(c*c) == ((b*b)+(a*a))){
         std::cout<<"Ce triangle est rectangle";
-    }else if (a == b || c == b){
+    }else if (a == b || c == b || a == c){
         std::cout<<"Ce triangle est isocèle";
     }else if (a == b == c){
         std::cout<<"Ce triangle est équilatéral";
